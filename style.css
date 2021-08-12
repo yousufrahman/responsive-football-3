@@ -1,0 +1,445 @@
+/* font style google font poppens */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+/* start css stylesheet */
+
+
+/* font style body  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    background-color: blue;
+    margin: 0;
+    border: 1px solid red;
+}
+
+.copa-font-2021 {
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    right: 799px;
+    top: 207px;
+    bottom: 240px;
+    color: #FFFFFF;
+    text-align: ;
+    font-size: 64px;
+    /* word-wrap: break-word; */
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    right: 1116px;
+    top: 464px;
+    bottom: 169px;
+    padding-left: 50%;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    text-decoration: none;
+}
+
+.footboll-kicked img {
+    position: absolute;
+    width: 556px;
+    height: 438px;
+    top: 153px;
+    left: 743px;
+}
+
+
+/* --------------------------------------------------
+  ------------------top-players=======-------
+   ---------------------------------------------------------
+------------------------------------------- */
+
+.top-players {
+    position: relative;
+    width: 1440px;
+    height: 3750px;
+    background-color: #FFFFFF;
+    /* top: -3902px;
+    left: -950px; */
+}
+
+.top-player-blogs-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: absolute;
+    width: 330px;
+    height: 474px;
+    left: 180px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+
+.top-player-blogs-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: absolute;
+    width: 330px;
+    height: 474px;
+    left: 540px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+
+.top-player-blogs-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: absolute;
+    width: 330px;
+    height: 474px;
+    left: 900px;
+    top: 747px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+
+.top-players .top-player-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 300px;
+    height: 426px;
+    left: 15px;
+    top: 15px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+
+/*-------------------
+------------ div-2 stylesheet-------------
+-------------------------------------------- */
+
+.biv-2 {
+    width: 1050px;
+    height: 474px;
+    top: 1248px;
+    left: 180px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    align-items: flex-start;
+}
+
+
+/* .div-2-player-img {
+    width: 330px;
+    height: 474px;
+    left: 740px;
+    padding: 15px;
+    display: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    top: 0px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 30px;
+} */
+
+.div-2 .player-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 470px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0, 0, 40px rgba(0, 0, 0, 0.15);
+    flex: none;
+    order: 0;
+    margin: 0px 30px;
+}
+
+.div-2 .player-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 470px;
+    left: 360px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0, 0, 40px rgba(0, 0, 0, 0.15);
+    flex: none;
+    order: 1;
+    margin: 0px 30px;
+}
+
+.div-2 .player-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 470px;
+    left: 720px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0, 0, 40px rgba(0, 0, 0, 0.15);
+    flex: none;
+    order: 2;
+    margin: 0px 30px;
+}
+
+.div-2 .blog-img {
+    position: static;
+    width: 300px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+    background: url();
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.biv-2 .player-name {
+    position: static;
+    width: 300px;
+    height: 40px;
+    size: 28px;
+    line-height: 40px;
+    left: calc(50%- 300px/2);
+    top: 0%;
+    bottom: 74.03%;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0px;
+    margin: 10px 0px;
+}
+
+.div-2 .player-blog {
+    width: 300px;
+    height: 104px;
+    top: 50px;
+    weight: 400px;
+    size: 16px;
+    line-height: 26px;
+    position: static;
+    width: 300px;
+    left: calc(50%-300px/2);
+    top: 32.47%;
+    bottom: 0%;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #6c6c6c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+
+/* div-3 stylesheet */
+
+
+/* .div-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1050px;
+    height: 474px;
+    left: 180px;
+    top: 1749px;
+} */
+
+.div-3 {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1050px;
+    height: 474px;
+    left: 180px;
+    top: 1749px;
+}
+
+.div-3 .player-1 {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 474px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.div-3 .player-2 {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 474px;
+    left: 360px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.div-3 .player-3 {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: static;
+    width: 330px;
+    height: 474px;
+    left: 720px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.div-3 .blog-img {
+    position: static;
+    width: 300px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+    background: url();
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.div-3 .player-name {
+    position: static;
+    width: 300px;
+    height: 40px;
+    size: 28px;
+    line-height: 40px;
+    left: calc(50%- 300px/2);
+    top: 0%;
+    bottom: 74.03%;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0px;
+    margin: 10px 0px;
+}
+
+.div-3 .player-blog {
+    width: 300px;
+    height: 104px;
+    top: 50px;
+    weight: 400px;
+    size: 16px;
+    line-height: 26px;
+    position: static;
+    width: 300px;
+    left: calc(50%-300px/2);
+    top: 32.47%;
+    bottom: 0%;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #6c6c6c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 483.87px;
+    height: 233px;
+    left: calc(50% - 483.87px/2 - 3.06px);
+    top: 3474px;
+}
